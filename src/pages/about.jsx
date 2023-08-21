@@ -65,16 +65,16 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-              From a young age, I loved creating things. In my third year of Engineering, during the COVID pandemic, I and two friends built "COVID Aware" - a website educating people about COVID with real-time case counts. Seeing its impact, I knew my passion lay in developing digital experiences that make a difference.
+              From a young age, I loved creating things. In my third year of Engineering, during the COVID pandemic, I and two friends built COVID Aware - a website educating people about COVID with real-time case counts. Seeing its impact, I knew my passion lay in developing digital experiences that make a difference.
               </p>
               <p>
               Embarking on my journey, I joined the prestigious company Publicis Sapient as a mobile developer. During my time at Publicis Sapient, I had an exciting journey completing three prestigious projects across different sectors, including banking, an internal accelerator, and the tourism industry, all within just one and a half years. Working alongside brilliant tech minds, skilled UI/UX developers, and insightful product managers, I soaked in valuable knowledge and even delved into UI/UX design. The experience sharpened my skills and enriched my growth as a mobile developer.
               </p>
               <p>
-              Fuelled by a desire to experience the exhilarating pace of the startup world and eager to hone my skills in moving swiftly, I joined Rulezero as a frontend developer. As time progressed, my role expanded to include backend development, and Notably, I also actively contributed to UI/UX design for each feature in the product. At Rulezero, I took pride in building a robust software solution that fulfilled our customers' needs in record time. The journey continues, and I'm thrilled to be part of a team that consistently creates exciting and innovative solutions in private equity market.
+              Fuelled by a desire to experience the exhilarating pace of the startup world and eager to hone my skills in moving swiftly, I joined Rulezero as a frontend developer. As time progressed, my role expanded to include backend development, and Notably, I also actively contributed to UI/UX design for each feature in the product. At Rulezero, I took pride in building a robust software solution that fulfilled our customers needs in record time. The journey continues, and I am thrilled to be part of a team that consistently creates exciting and innovative solutions in private equity market.
               </p>
               <p>
-              Calling all dreamers and innovators! Let's team up to craft extraordinary digital experiences that leave a lasting impact. Reach me on the below given social media handles to ignite our creativity and build frontend, backend, and UI/UX wonders together!"
+              Calling all dreamers and innovators! Lets team up to craft extraordinary digital experiences that leave a lasting impact. Reach me on the below given social media handles to ignite our creativity and build frontend, backend, and UI/UX wonders together!
               </p>
             </div>
           </div>
