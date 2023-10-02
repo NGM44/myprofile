@@ -14,7 +14,6 @@ const projects = [
     name: 'Tourism App',
     description:
       'Development of Tourism App for a foreign Government entity from scratch.',
-    link: { href: '#', label: 'github.com' },
     logo: logoAnimaginary,
     noLink: true,
     tag: "FTE - Publicis Sapient"
@@ -22,7 +21,6 @@ const projects = [
   {
     name: 'Banking App',
     description: 'Worked as Mobile developer for a foreign entity in a Banking App',
-    link: { href: '#', label: 'github.com' },
     logo: logoHelioStream,
     noLink: true,
      tag: "FTE - Publicis Sapient"
@@ -30,7 +28,6 @@ const projects = [
   {
     name: 'Flutter Architecture',
     description: 'Built Flutter Architecture for the company to support fast development',
-    link: { href: '#', label: 'github.com' },
     logo: logoCosmos,
     noLink: true,
     tag: "FTE - Publicis Sapient"
@@ -39,7 +36,6 @@ const projects = [
     name: 'XXXXXXX',
     description:
       'Cant disclose yet',
-    link: { href: '#', label: 'github.com' },
     logo: logoOpenShuttle,
     noLink: true,
     tag: "FTE - Rulezero"
@@ -47,7 +43,6 @@ const projects = [
   {
     name: 'XXXXXX',
     description:  'Cant disclose yet',
-    link: { href: '#', label: 'github.com' },
     logo: logoAnimaginary,
     noLink: true,
     tag: "FTE - Rulezero"
@@ -56,7 +51,6 @@ const projects = [
     name: 'Industrial Machinery',
     description:
       'Built an app to control machines via bluetooth saved company 5 million spend',
-    link: { href: '#', label: 'github.com' },
     logo: logoHelioStream,
     noLink: true,
     tag: "Free Lancing"
@@ -65,7 +59,6 @@ const projects = [
     name: 'Sankalpa Pets',
     description:
       'Built an website for a bottle manufacturing company',
-    link: { href: '#', label: 'github.com' },
     logo: logoCosmos,
     noLink: true,
     tag: "Free Lancing"
@@ -74,7 +67,6 @@ const projects = [
     name: 'Uk pickle',
     description:
       'Built an website for a pickle manufacturing company',
-    link: { href: '#', label: 'github.com' },
     logo: logoOpenShuttle,
     noLink: true,
     tag: "Free Lancing"
@@ -83,7 +75,6 @@ const projects = [
     name: 'Covid Awareness Website',
     description:
       'Built a Covid Awareness Website in covid time.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
     logo: logoPlanetaria,
     noLink: true,
     tag: "Engineering"
@@ -92,7 +83,6 @@ const projects = [
     name: 'Autonomous Car Simulation',
     description:
       'Developed an autonomous car simulation in the Webots platform in a virtual environment.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
     logo: logoAnimaginary,
     noLink: true,
     tag: "Engineering"
@@ -101,7 +91,6 @@ const projects = [
     name: 'Inventory Management',
     description:
       'Developed an inventory management software for handling computer equipment as part of my internship',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
     logo: logoHelioStream,
     noLink: true,
     tag: "Engineering"
@@ -110,7 +99,6 @@ const projects = [
     name: 'Pulse Oximeter',
     description:
       'Built a pulse oximeter for final year project for one senior',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
     logo: logoPlanetaria,
     noLink: true,
     tag: "Engineering"
@@ -119,7 +107,6 @@ const projects = [
     name: 'ARTS',
     description:
       'Advanced Road Transportation system with 9 different concept.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
     logo: logoOpenShuttle,
     noLink: true,
     tag: "Diploma"
@@ -128,7 +115,6 @@ const projects = [
     name: 'Rain Detector',
     description:
       'My First Project , Simple but yet First Love',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
     logo: logoPlanetaria,
     noLink: true,
     tag: "Diploma"
@@ -158,7 +144,7 @@ export default function Projects() {
       </Head>
       <SimpleLayout
         title="Things I’ve made trying to put my dent in the universe."
-        intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. some of them have the link for code and many dont have."
+        intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of."
       >
         <ul
           role="list"
@@ -175,7 +161,7 @@ export default function Projects() {
                 />
               </div>
               <h2 className="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100">
-                <Card.Link href={project.link.href}>{project.name}</Card.Link>
+                <Card.Link>{project.name}</Card.Link>
               </h2>
               <Card.Description>{project.description}</Card.Description>
               <p className="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-teal-500 dark:text-zinc-200">
