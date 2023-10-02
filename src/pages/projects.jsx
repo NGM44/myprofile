@@ -83,7 +83,7 @@ const projects = [
     name: 'Covid Awareness Website',
     description:
       'Built a Covid Awareness Website in covid time.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
+    link: { href: '#', label: 'planetaria.tech' },
     logo: logoPlanetaria,
     noLink: true,
     tag: "Engineering"
@@ -92,7 +92,7 @@ const projects = [
     name: 'Autonomous Car Simulation',
     description:
       'Developed an autonomous car simulation in the Webots platform in a virtual environment.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
+    link: { href: '#', label: 'planetaria.tech' },
     logo: logoAnimaginary,
     noLink: true,
     tag: "Engineering"
@@ -101,7 +101,7 @@ const projects = [
     name: 'Inventory Management',
     description:
       'Developed an inventory management software for handling computer equipment as part of my internship',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
+    link: { href: '#', label: 'planetaria.tech' },
     logo: logoHelioStream,
     noLink: true,
     tag: "Engineering"
@@ -110,7 +110,7 @@ const projects = [
     name: 'Pulse Oximeter',
     description:
       'Built a pulse oximeter for final year project for one senior',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
+    link: { href: '#', label: 'planetaria.tech' },
     logo: logoPlanetaria,
     noLink: true,
     tag: "Engineering"
@@ -119,7 +119,7 @@ const projects = [
     name: 'ARTS',
     description:
       'Advanced Road Transportation system with 9 different concept.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
+    link: { href: '#', label: 'planetaria.tech' },
     logo: logoOpenShuttle,
     noLink: true,
     tag: "Diploma"
@@ -128,7 +128,7 @@ const projects = [
     name: 'Rain Detector',
     description:
       'My First Project , Simple but yet First Love',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
+    link: { href: '#', label: 'planetaria.tech' },
     logo: logoPlanetaria,
     noLink: true,
     tag: "Diploma"
@@ -175,7 +175,7 @@ export default function Projects() {
                 />
               </div>
               <h2 className="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100">
-                <Card.Link href={project.link.href}>{project.name}</Card.Link>
+                <Card.Link>{project.name}</Card.Link>
               </h2>
               <Card.Description>{project.description}</Card.Description>
               <p className="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-teal-500 dark:text-zinc-200">
