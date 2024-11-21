@@ -15,37 +15,63 @@ const projects = [
     description:
       'Development of Tourism App for a foreign Government entity from scratch.',
     logo: logoAnimaginary,
-    noLink: true,
-    tag: "FTE - Publicis Sapient"
+    link: 'https://www.dgda.gov.sa/en',
+    noLink: false,
+    tag: 'FTE - Publicis Sapient',
   },
   {
     name: 'Banking App',
-    description: 'Worked as Mobile developer for a foreign entity in a Banking App',
+    description:
+      'Worked as Mobile developer for a foreign entity in a Banking App',
     logo: logoHelioStream,
     noLink: true,
-     tag: "FTE - Publicis Sapient"
+    tag: 'FTE - Publicis Sapient',
   },
   {
     name: 'Flutter Architecture',
-    description: 'Built Flutter Architecture for the company to support fast development',
+    description:
+      'Built Flutter Architecture for the company to support fast development',
     logo: logoCosmos,
     noLink: true,
-    tag: "FTE - Publicis Sapient"
+    tag: 'FTE - Publicis Sapient',
   },
   {
-    name: 'XXXXXXX',
+    name: 'Captable',
     description:
-      'Cant disclose yet',
+      'platform issue ,track , manage your company securities and captable ownership',
+    logo: logoOpenShuttle,
+    noLink: false,
+    link: 'https://captable.hissa.com',
+    tag: 'FTE - Rulezero',
+  },
+  {
+    name: 'Task Manager',
+    description:
+      'Track Task , Share & Collect Task Documents and handle reminders for corporates mainly in investing domain',
+    logo: logoHelioStream,
+    noLink: false,
+    link: 'https://taskmanager.hissa.com',
+    tag: 'FTE - Rulezero',
+  },
+
+  {
+    name: 'Onboarding',
+    description:
+      'Portal to onboarding client for Captable and Esop portal in rulezero',
     logo: logoOpenShuttle,
     noLink: true,
-    tag: "FTE - Rulezero"
+    noLink: false,
+    link: 'https://onboarding.hissa.com',
+    tag: 'FTE - Rulezero',
   },
   {
-    name: 'XXXXXX',
-    description:  'Cant disclose yet',
+    name: 'ESOP portal',
+    description:
+      'Portal where Employees can see their esop grant, accept esop, conduct buyback ,liquidity of options and more',
     logo: logoAnimaginary,
-    noLink: true,
-    tag: "FTE - Rulezero"
+    noLink: false,
+    link: 'https://employee.hissa.com',
+    tag: 'FTE - Rulezero',
   },
   {
     name: 'Industrial Machinery',
@@ -53,71 +79,65 @@ const projects = [
       'Built an app to control machines via bluetooth saved company 5 million spend',
     logo: logoHelioStream,
     noLink: true,
-    tag: "Free Lancing"
+    tag: 'Free Lancing',
   },
   {
     name: 'Sankalpa Pets',
-    description:
-      'Built an website for a bottle manufacturing company',
+    description: 'Built an website for a bottle manufacturing company',
     logo: logoCosmos,
-    noLink: true,
-    tag: "Free Lancing"
+    noLink: false,
+    link: 'https://sankalpapets.com',
+    tag: 'Free Lancing',
   },
   {
     name: 'Uk pickle',
-    description:
-      'Built an website for a pickle manufacturing company',
+    description: 'Built an website for a pickle manufacturing company',
     logo: logoOpenShuttle,
-    noLink: true,
-    tag: "Free Lancing"
+    link: 'https://ukpickles.com',
+    noLink: false,
+    tag: 'Free Lancing',
   },
   {
-    name: 'Covid Awareness Website',
-    description:
-      'Built a Covid Awareness Website in covid time.',
+    name: 'India Auto Pins',
+    description: 'Built an website for a nuts and bolt manufacturing company',
     logo: logoPlanetaria,
-    noLink: true,
-    tag: "Engineering"
+    link: 'https://indiaautopins.in',
+    noLink: false,
+    tag: 'Free Lancing',
   },
   {
-    name: 'Autonomous Car Simulation',
+    name: 'SSOT',
+    description: 'Creative Online Games which can be played anywhere',
+    logo: logoOpenShuttle,
+    link: 'https://ssot.in',
+    noLink: false,
+    tag: 'Free Lancing',
+  },
+  {
+    name: 'Sensormagics',
     description:
-      'Developed an autonomous car simulation in the Webots platform in a virtual environment.',
+      'IOT platform to record and Analyze real time data from Air sensor such temparature ,humidity and 16 other unique values',
     logo: logoAnimaginary,
-    noLink: true,
-    tag: "Engineering"
+    link: 'https://sensormagics.com',
+    noLink: false,
+    tag: 'Free Lancing',
   },
   {
-    name: 'Inventory Management',
+    name: 'Autocrud',
     description:
-      'Developed an inventory management software for handling computer equipment as part of my internship',
-    logo: logoHelioStream,
-    noLink: true,
-    tag: "Engineering"
-  },
-  {
-    name: 'Pulse Oximeter',
-    description:
-      'Built a pulse oximeter for final year project for one senior',
+      'No code platform to build workflow, automation and softwware products',
     logo: logoPlanetaria,
-    noLink: true,
-    tag: "Engineering"
+    noLink: false,
+    link: 'https://autocurd.com',
+    tag: 'Free Lancing',
   },
   {
-    name: 'ARTS',
+    name: 'XXXX',
     description:
-      'Advanced Road Transportation system with 9 different concept.',
-    logo: logoOpenShuttle,
+      'Fintech Product , Cant Disclose',
+    logo: logoCosmos,
     noLink: true,
-    tag: "Diploma"
-  },
-  {
-    name: 'Rain Detector',
-    description:
-      'My First Project , Simple but yet First Love',
-    logo: logoPlanetaria,
-    noLink: true,
-    tag: "Diploma"
+    tag: 'Co-Founder',
   },
 ]
 
@@ -143,15 +163,22 @@ export default function Projects() {
         />
       </Head>
       <SimpleLayout
-        title="Things I’ve made trying to put my dent in the universe."
-        intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of."
+        title={`Built ${projects.length + 1} Production app till now and building more.`}
+        intro="I’ve worked on tons of little projects over the years but these are the ones that seen the production and users have used it and I’m most proud of."
       >
         <ul
           role="list"
           className="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3"
         >
           {projects.map((project) => (
-            <Card as="li" key={project.name}>
+            <Card
+              onClick={() => {
+                window.open(project.link)
+              }}
+              as="li"
+              className={'cursor-pointer'}
+              key={project.name}
+            >
               <div className="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
                 <Image
                   src={project.logo}
@@ -164,12 +191,22 @@ export default function Projects() {
                 <Card.Link>{project.name}</Card.Link>
               </h2>
               <Card.Description>{project.description}</Card.Description>
-              <p className="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-teal-500 dark:text-zinc-200">
-                {!project.noLink && <LinkIcon className="h-6 w-6 flex-none" />}
-                {!project.noLink ? (
+              <div className="relative z-10 mt-6 flex w-full flex-row justify-between text-sm font-medium text-zinc-400 transition group-hover:text-teal-500 dark:text-zinc-200">
+                {/* {!project.noLink ? (
                   <span className="ml-2">{project.link.label}</span>
-                ) : (<span className="ml-2">{project.tag}</span>)}
-              </p>
+                ) : ( */}
+                <span className="ml-2">{project.tag}</span>
+                {/* )} */}
+                {!project.noLink && (
+                  <div className="flex flex-row">
+                    <LinkIcon className="h-6 w-6 flex-none" />
+
+                    <a href={project.link} target="_blank">
+                      Visit
+                    </a>
+                  </div>
+                )}
+              </div>
             </Card>
           ))}
         </ul>
@@ -177,4 +214,3 @@ export default function Projects() {
     </>
   )
 }
-
