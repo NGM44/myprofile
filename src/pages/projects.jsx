@@ -201,7 +201,7 @@ export default function Projects() {
                   <div className="flex flex-row">
                     <LinkIcon className="h-6 w-6 flex-none" />
 
-                    <a href={project.link} target="_blank">
+                    <a href={project.link} rel="noreferrer" target="_blank">
                       Visit
                     </a>
                   </div>
